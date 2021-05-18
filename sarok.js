@@ -63,10 +63,16 @@ client.on("message", async message => {
 ━──╮•╭──━
 __ [Vote](link top gg) __  
 __ [invite](invitebot) __  __ [Support](https://discord.gg/cetGQvWD3h) __
-`);
-    message.channel.send(help);
+`
+      )
+      .setImage("https://api.creavite.co/out/397b8d71-4530-461d-85cb-e9a0fde2846d_standard.gif")
+      .setURL("")
+      .setTitle("");
+    message.channel.send(embed);
   }
 });
+  
+
 
 ////////
 
